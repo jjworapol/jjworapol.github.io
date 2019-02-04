@@ -29,11 +29,15 @@ h3{
 p{
 	font-size: 18px;
 }
-
-.sidebar {
+.summary{
+	text-align: center;
+	background-color: #c6ddf2;
+	border-radius: 20px;
+}
+.summary {
 	clear: both; 
-	margin: 30px 40px 40px 40px; 
-	width: 160px; 
+	padding : 100px 40px 100px 40px; 
+	width: 400px; 
 	float: left;
 	}
 .sidebar .wrapper {
@@ -41,48 +45,44 @@ p{
 	text-align: center;
 	}
 .preamble,.participation,.requirements{
+	margin: 10px 0px 10px 500px;
 	background-color: #cc99ff;
+	border-radius: 20px;
 }
 
 .explanation,.benefits{
+	margin: 10px 0px 10px 500px;
 		background-color:   #ffffe0;
+		border-radius: 20px;
 }
-.main{
-		-webkit-column-count: 1;
-		column-rule-style: solid;
-
-
-}
+]
 footer{
 	font-size: 20px;
-	background-color: yellow;
-	border-radius: 10px;
+	background-color: blue;
+	border-radius: 100px;
 }
 
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
 	color: #B7A5DF;
+	background-color: white;
 	}
 a:visited { 
 	font-weight: bold; 
-	text-decoration: none; 
+	text-decoration:blink; 
 	color: #D4CDDC;
+	background-color: white;
 	}
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
 	color: #9685BA;
+	background-color: white;
 	}
-abbr {
-	border-bottom: none;
-	}
+
 [role=banner] {			
 	background-color: 	#ccc7d1;
 }
-
-.margin{
-	margin: 10px 20px 15px 40px;
-}
-.padding{
-	padding: 5px 5px 5px 5px;
+body{
+	background-color: 	#66cdaa;
 }
