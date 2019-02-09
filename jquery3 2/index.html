@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" media="screen" href="style.css">
+</head>
+<body>
+    <div class="jumbotron" style="text-align :center;">
+        <h1 >Welcome to Smartphone Smart Search</h1>      
+        <p >The website to search top of  smartphone from each brand </p>
+    </div>
+    <section class="section">
+    <div class="container">    
+        <div class="level" >
+            <div class="level-item">
+                <div class="field is-horizontal" style="text-align : center">
+                    <div class="field-body">
+                        <div class="field">
+                        <p class="control">
+                            <input  class="input is-rounded" 
+                                    type="text" id="input-text"
+                                    placeholder="Enter your phone name">
+                        </p>
+                        </div>
+
+                        <div class="control">
+                            <button id="submit-btn" class="button is-primary">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container" style="text-align:center">
+            <button id="advanced-btn" class="button is-primary">
+                Advanced search
+            </button>
+                <div class ="control" id="advanced-search"> 
+                    <div class="select brand">
+                        <p>Select Brand</p>
+                        <select class="form-control" id ="brand-selector">
+                        <option value=""></option>
+                        <option value="APPLE">APPLE</option>
+                        <option value="SAMSUNG">SAMSUNG</option>
+                        <option value="HUAWEI">HUAWEI</option>
+                        </select>
+                    </div>
+                    <div class="select Capacity">
+                        <p>Select Capacity</p>
+                        <select class="form-control" id="capacity-selector">
+                        <option value=""></option>
+                        <option value="64 GB">64 GB</option>
+                        <option value="128 GB">128 GB</option>
+                        <option value="256 GB">256 GB</option>
+                        <option value="512 GB">512 GB</option>
+                        </select>
+                    </div>
+                    <div class="select Display">
+                        <label>Select Display</label>
+                        <select class="form-control" id="display-selector">
+                        <option value=""></option>
+                        <option value="5.8 inchs">5.8 inchs	</option>
+                        <option value="6.2 inchs">6.2 inchs</option>
+                        <option value="6.5 inchs">6.5 inchs</option>
+                        </select>
+                    </div>
+
+                    <div class="control" >
+                        <br>
+                        <button id="advanced-search-btn" class="button is-primary" >
+                            Search by selected 
+                        </button>
+                    </div>
+                </div> 
+            </div>
+            <br> 
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Brand</th>
+                    <th>Capacity</th>
+                    <th>Display</th>
+                    <th>Price</th>
+                </tr>
+                </thead>
+                <tbody id="datarow">
+                </tbody>
+            </table>
+            <div class="alert alert-warning" id="Warning" style="text-align:center" hidden=true>
+                <strong >Warning!</strong> No phone matched.
+            </div>
+        </div>
+    </section>
+            <script src="jquery-3.3.1.min.js"></script>
+            <script src="myscript.js"></script>
+    
+</body>
+</html>

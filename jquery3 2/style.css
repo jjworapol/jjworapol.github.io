@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Secular+One');
+
+.jumbotron{ font-family: 'Abril Fatface', cursive;
+    background-color: rgba(190, 130, 51, 0.555);
+}
+
+
+.section{
+    font-family: 'Secular One', sans-serif;
+    background-color: rgba(236, 241, 224, 0.884);
+    padding: 1%;
+}
+
+
