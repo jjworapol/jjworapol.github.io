@@ -1,0 +1,88 @@
+[
+    
+    {
+        "Brand" : "APPLE",
+        "Name" : "Iphone Xs",
+        "Capacity" : "64GB",
+        "Display" : "5.8 inchs",
+        "Price" : 39900
+    },
+    {
+        "Brand" : "APPLE",
+        "Name" : "Iphone Xs",
+        "Capacity" : "256GB",
+        "Display" : "5.8 inchs",
+        "Price" : 45900
+    },
+    {
+        "Brand" : "APPLE",
+        "Name" : "Iphone Xs",
+        "Capacity" : "512GB",
+        "Display" : "5.8 inchs",
+        "Price" : 53900
+    },
+    {
+        "Brand" : "APPLE",
+        "Name" : "Iphone Xs Max",
+        "Capacity" : "64GB",
+        "Display" : "6.5 inchs",
+        "Price" : 43900
+    },
+    {
+        "Brand" : "APPLE",
+        "Name" : "Iphone Xs Max",
+        "Capacity" : "256GB",
+        "Display" : "6.5 inchs",
+        "Price" : 49900
+    },
+    {
+        "Brand" : "APPLE",
+        "Name" : "Iphone Xs Max",
+        "Capacity" : "512GB",
+        "Display" : "6.5 inchs",
+        "Price" : 57900
+    },
+    {
+        "Brand" : "SAMSUNG",
+        "Name" : "Galaxy S9",
+        "Capacity" : "64 GB",
+        "Display" : "5.8 inchs",
+        "Price" : 23900
+    },
+    {
+        "Brand" : "SAMSUNG",
+        "Name" : "Galaxy S9+",
+        "Capacity" : "64 GB",
+        "Display" : "6.2 inchs",
+        "Price" : 27900
+    },
+    {
+        "Brand" : "SAMSUNG",
+        "Name" : "Galaxy S9+",
+        "Capacity" : "128 GB",
+        "Display" : "6.2 inchs",
+        "Price" : 29900
+    },{
+        "Brand" : "SAMSUNG",
+        "Name" : "Galaxy S9+",
+        "Capacity" : "256 GB",
+        "Display" : "6.2 inchs",
+        "Price" : 37900
+    },
+    {
+        "Brand" : "HUAWEI",
+        "Name" : "Huawei Smartphone P20",
+        "Capacity" : "128 GB",
+        "Display" : "5.8 inchs",
+        "Price" : 17990
+    },{
+        "Brand" : "HUAWEI",
+        "Name" : "Huawei Smartphone P20 Pro",
+        "Capacity" : "128 GB",
+        "Display" : "6.1 inchs",
+        "Price" : 19990
+    }
+
+   
+    
+]
